@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.instagram-container{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+.insta-cell{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.insta-cell img{
+    height: 50rem;
+}
+
+
+.instaLog{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 40%;
+    min-height: 85vh;
+}
+
+.logInn{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #ffffff;
+    width: 100%;
+    padding: 1.3rem;
+    border: 1px solid lightgray;
+    min-height: 19rem;
+}
+.logInn img{
+    margin-top: 10%;
+}
+
+.button-1 a{
+    display: flex;
+    align-items: center;
+    background-color: #0095f6;
+    margin-top: 10%;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 20%;
+}
+
+.button-2 a{
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+    color: #0095f6;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.logOut{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #ffffff;
+    width: 100%;
+    padding: 1.3rem;
+    border: 1px solid lightgray;
+}
+
+span{
+    color:rgb(122, 122, 115);
+}
+
+.changCount a{
+    color: #0095f6;
+}
+
+.downloads{
+    display: flex;
+    align-items: center;
+    
+}
+
+.downloads img{
+    height: 3rem;
+}
+
+
+#perf{
+    height: 120px;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width:1285px){
+    .instagram-container{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:787px){
+    .instaLog{
+        width: 90%;
+    }
+    .insta-cell{
+        display: none;
+    }
+
+    .instaLog{
+        width: 100%;
+    }
+
+}
